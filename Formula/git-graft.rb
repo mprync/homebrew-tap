@@ -1,28 +1,28 @@
 class GitGraft < Formula
   desc "Faster, lighter replacement for git worktree, built for coding agents"
   homepage "https://github.com/mprync/git-graft"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mprync/git-graft/releases/download/v0.1.0/git-graft-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "38e09a213c8aa415498f5fa3657fa29cb6e7d7dfc218e5c53a8a393ce3165ad1"
+      url "https://github.com/mprync/git-graft/releases/download/v0.2.0/git-graft-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "cb964b558485e40dc4f01bfdeea09b36b914c8d735a76346a67a4a63954bf8b5"
     end
     on_intel do
-      url "https://github.com/mprync/git-graft/releases/download/v0.1.0/git-graft-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ec9db271824c6c3fcac0f702faee99db0e7942a7bc2be84662addfcb0462c8cc"
+      url "https://github.com/mprync/git-graft/releases/download/v0.2.0/git-graft-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "3e9571904cce647ab21dae5741e45b007fe1d49a248749fdd68674263e7ba09f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mprync/git-graft/releases/download/v0.1.0/git-graft-0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "57b93ee4f5fdc1ad2ae72d4264ab5b1ed3cd7d5c0f182bb0c955525d9fb60222"
+      url "https://github.com/mprync/git-graft/releases/download/v0.2.0/git-graft-0.2.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "2c48fb181d63885cd5f83ef1aececaae07fef233c6921da640c05b95c9f16a85"
     end
     on_intel do
-      url "https://github.com/mprync/git-graft/releases/download/v0.1.0/git-graft-0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f6431fe2a0979333365b74f9fb987deb7eb4d5cbe9211cba74ee2ac870681985"
+      url "https://github.com/mprync/git-graft/releases/download/v0.2.0/git-graft-0.2.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "10da2726d23c9fb4669d96c9e45b66c45187bf74ae3cf1c7505de269cca586c6"
     end
   end
 
